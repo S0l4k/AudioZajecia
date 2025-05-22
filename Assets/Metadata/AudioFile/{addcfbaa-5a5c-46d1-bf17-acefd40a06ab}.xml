@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{addcfbaa-5a5c-46d1-bf17-acefd40a06ab}">
+		<property name="assetPath">
+			<value>Forest Woodland Loop 2.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>51</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a4be128c-b721-4da4-98dc-0fcfc9af5202}</destination>
+		</relationship>
+	</object>
+</objects>
