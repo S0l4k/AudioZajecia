@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{f056b5b0-0dd9-41fd-97fc-69d08e953d7d}">
 		<property name="name">
 			<value>Land</value>
@@ -80,8 +80,8 @@
 	</object>
 	<object class="Timeline" id="{bb3b6eb0-8645-4b2f-ad1e-988fa5611377}">
 		<relationship name="modules">
-			<destination>{8c5b885d-f8d3-47a4-8a8a-7d23aab97838}</destination>
 			<destination>{02072843-d90d-4490-b164-3ddd7cafee30}</destination>
+			<destination>{8c5b885d-f8d3-47a4-8a8a-7d23aab97838}</destination>
 		</relationship>
 	</object>
 	<object class="ParameterProxy" id="{7c20a682-4c2b-44f0-9064-a7a715419fef}">
@@ -143,8 +143,8 @@
 			<value>0.80660416666666668</value>
 		</property>
 		<relationship name="modulators">
-			<destination>{99e585b0-aa57-4fe9-a412-18726fe01e68}</destination>
 			<destination>{e039fa74-b221-41b5-ba7c-342db08d96c3}</destination>
+			<destination>{99e585b0-aa57-4fe9-a412-18726fe01e68}</destination>
 		</relationship>
 		<relationship name="triggerConditions">
 			<destination>{62571d29-4041-4c16-900c-9e29ec38cb92}</destination>
@@ -212,20 +212,20 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{bbcd3abc-c978-4e45-a4b0-d0b5084e11ad}" />
-	<object class="RandomizerModulator" id="{99e585b0-aa57-4fe9-a412-18726fe01e68}">
-		<property name="nameOfPropertyBeingModulated">
-			<value>volume</value>
-		</property>
-		<property name="amount">
-			<value>5</value>
-		</property>
-	</object>
 	<object class="RandomizerModulator" id="{e039fa74-b221-41b5-ba7c-342db08d96c3}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>pitch</value>
 		</property>
 		<property name="amount">
 			<value>8</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{99e585b0-aa57-4fe9-a412-18726fe01e68}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="amount">
+			<value>5</value>
 		</property>
 	</object>
 	<object class="ParameterCondition" id="{62571d29-4041-4c16-900c-9e29ec38cb92}">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="ParameterPreset" id="{3d084c03-1076-4a9d-9231-c57cd5d420e0}">
 		<property name="name">
 			<value>doors_status</value>

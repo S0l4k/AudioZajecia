@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{a9078497-6b6a-48c4-b670-ef0778a1c1db}">
 		<property name="name">
 			<value>Jump</value>
@@ -80,8 +80,8 @@
 	</object>
 	<object class="Timeline" id="{52754d4a-4dd3-42e5-81b7-d5af0165236a}">
 		<relationship name="modules">
-			<destination>{94e920f5-36ff-4a19-84df-d02bfb6e5ef9}</destination>
 			<destination>{ad4a3b99-cb8d-4411-9d0d-35351011e68e}</destination>
+			<destination>{94e920f5-36ff-4a19-84df-d02bfb6e5ef9}</destination>
 		</relationship>
 	</object>
 	<object class="ParameterProxy" id="{83c3fe04-20fb-4ad6-bb05-476192de21cf}">
@@ -111,8 +111,8 @@
 			<value>0.48704166666666665</value>
 		</property>
 		<relationship name="modulators">
-			<destination>{c26655a2-326f-4f10-b523-92c55e250b9e}</destination>
 			<destination>{abd0ead0-ba75-4cd7-9567-800306e6a497}</destination>
+			<destination>{c26655a2-326f-4f10-b523-92c55e250b9e}</destination>
 		</relationship>
 		<relationship name="triggerConditions">
 			<destination>{39546b78-63ec-4343-85c8-b84b179e6392}</destination>
@@ -175,20 +175,20 @@
 	</object>
 	<object class="MixerBusPanner" id="{bbcf3092-1d00-4ecb-aa2a-37fd12d707d2}" />
 	<object class="MixerBusFader" id="{53702605-273d-4d46-b4bb-fd9d40b00c19}" />
-	<object class="RandomizerModulator" id="{c26655a2-326f-4f10-b523-92c55e250b9e}">
-		<property name="nameOfPropertyBeingModulated">
-			<value>volume</value>
-		</property>
-		<property name="amount">
-			<value>4.5</value>
-		</property>
-	</object>
 	<object class="RandomizerModulator" id="{abd0ead0-ba75-4cd7-9567-800306e6a497}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>pitch</value>
 		</property>
 		<property name="amount">
 			<value>7</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{c26655a2-326f-4f10-b523-92c55e250b9e}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="amount">
+			<value>4.5</value>
 		</property>
 	</object>
 	<object class="ParameterCondition" id="{39546b78-63ec-4343-85c8-b84b179e6392}">

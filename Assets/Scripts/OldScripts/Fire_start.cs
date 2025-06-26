@@ -3,28 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using FMODUnity;
 
-public class Fire_start : MonoBehaviour, IInteractable
+public class Fire_start : MonoBehaviour
 {
     public GameObject fireplace;
 
     private MeshRenderer meshRenderer;
 
-    private void Start()
+    private void OnTriggerEnter(Collider other)
     {
-        meshRenderer = GetComponent<MeshRenderer>();
-        fireplace.SetActive(false);
-
-    }
-
-    public void Interact()
-    {
-        Debug.Log("Interact");
-        //Instantiate(fireplace, transform.position, transform.rotation);
-
-        //fireplace.GetComponent<Renderer>(). = true;
-        meshRenderer.enabled = true;
-
         fireplace.SetActive(true);
-
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        fireplace.SetActive(false);
     }
 }
