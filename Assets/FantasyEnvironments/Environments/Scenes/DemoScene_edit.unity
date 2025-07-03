@@ -160,8 +160,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.2389526, y: 1, z: 1.9538269}
-  m_Center: {x: 0.06314087, y: 0, z: 0.47691345}
+  m_Size: {x: 2.2389526, y: 1, z: 2.0880432}
+  m_Center: {x: 0.06314087, y: 0, z: 0.5440216}
 --- !u!4 &8767652
 Transform:
   m_ObjectHideFlags: 0
@@ -191,10 +191,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ambientEvent:
     Guid:
-      Data1: 153224306
-      Data2: 1318661953
-      Data3: -1564872567
-      Data4: 342759214
+      Data1: 2072378947
+      Data2: 1087218602
+      Data3: -542323564
+      Data4: 491051021
     Path: event:/Forest ambient
 --- !u!1 &26559585
 GameObject:
@@ -334,18 +334,18 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1627188520
-      Data2: 1188949925
-      Data3: 361748359
-      Data4: -1598165705
+      Data1: -1009452468
+      Data2: 1269255914
+      Data3: 317134979
+      Data4: 1215005861
     Path: event:/FirePlace
   Event: 
-  PlayEvent: 11
-  StopEvent: 12
+  EventPlayTrigger: 11
+  EventStopTrigger: 12
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
-  AllowNonRigidbodyDoppler: 0
+  NonRigidbodyVelocity: 0
   Params: []
   OverrideAttenuation: 0
   OverrideMinDistance: 1
@@ -879,11 +879,11 @@ MonoBehaviour:
   rotationSpeed: 90
   DoorsEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 868875899
+      Data2: 1252616248
+      Data3: -1023967590
+      Data4: -1268691795
+    Path: event:/Doors
   insideRoomSnap:
     Guid:
       Data1: 0
@@ -1023,6 +1023,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nonRigidbodyVelocity: 0
   attenuationObject: {fileID: 0}
 --- !u!114 &237163392
 MonoBehaviour:
@@ -3053,24 +3054,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   footstepsEvent:
     Guid:
-      Data1: 357276010
-      Data2: 1336100160
-      Data3: 332409480
-      Data4: 875287097
+      Data1: 1479305334
+      Data2: 1110480736
+      Data3: -2027352682
+      Data4: 130116675
     Path: event:/Footsteps
   jumpEvent:
     Guid:
-      Data1: -1459125097
-      Data2: 1220832106
-      Data3: 133132470
-      Data4: -608067208
+      Data1: -340848222
+      Data2: 1332782771
+      Data3: 1145970872
+      Data4: -1054796767
     Path: event:/Jump
   landEvent:
     Guid:
-      Data1: -262752848
-      Data2: 1107103193
-      Data3: -798360425
-      Data4: 2101187982
+      Data1: 1214162637
+      Data2: 1098061381
+      Data3: -410975854
+      Data4: 924696392
     Path: event:/Land
 --- !u!1 &688602384
 GameObject:
@@ -4675,10 +4676,10 @@ MonoBehaviour:
   rotationSpeed: 90
   DoorsEvent:
     Guid:
-      Data1: 1592680134
-      Data2: 1162144624
-      Data3: 1905626263
-      Data4: -1306037936
+      Data1: 868875899
+      Data2: 1252616248
+      Data3: -1023967590
+      Data4: -1268691795
     Path: event:/Doors
   insideRoomSnap:
     Guid:
@@ -4846,11 +4847,11 @@ MonoBehaviour:
   rotationSpeed: 90
   DoorsEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 868875899
+      Data2: 1252616248
+      Data3: -1023967590
+      Data4: -1268691795
+    Path: event:/Doors
   insideRoomSnap:
     Guid:
       Data1: 0
@@ -5099,10 +5100,10 @@ MonoBehaviour:
   rotationSpeed: 90
   DoorsEvent:
     Guid:
-      Data1: 1592680134
-      Data2: 1162144624
-      Data3: 1905626263
-      Data4: -1306037936
+      Data1: 868875899
+      Data2: 1252616248
+      Data3: -1023967590
+      Data4: -1268691795
     Path: event:/Doors
   insideRoomSnap:
     Guid:
@@ -5857,10 +5858,10 @@ MonoBehaviour:
   rotationSpeed: 90
   DoorsEvent:
     Guid:
-      Data1: 1592680134
-      Data2: 1162144624
-      Data3: 1905626263
-      Data4: -1306037936
+      Data1: 868875899
+      Data2: 1252616248
+      Data3: -1023967590
+      Data4: -1268691795
     Path: event:/Doors
   insideRoomSnap:
     Guid:
@@ -6744,22 +6745,22 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1801412790
-      Data2: 1086729174
-      Data3: 505361025
-      Data4: 280688411
+      Data1: -864471331
+      Data2: 1210249019
+      Data3: -434055546
+      Data4: 48871047
     Path: event:/Tavern Music
   Event: 
-  PlayEvent: 11
-  StopEvent: 0
+  EventPlayTrigger: 11
+  EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
-  AllowNonRigidbodyDoppler: 0
+  NonRigidbodyVelocity: 0
   Params: []
   OverrideAttenuation: 1
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 11.939087
+  OverrideMinDistance: 0.6307068
+  OverrideMaxDistance: 16.036499
 --- !u!1 &1694079563
 GameObject:
   m_ObjectHideFlags: 0
@@ -8811,10 +8812,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ambientEvent:
     Guid:
-      Data1: 1931922295
-      Data2: 1182457181
-      Data3: -1803555407
-      Data4: -951930620
+      Data1: -2043294136
+      Data2: 1249036807
+      Data3: -1976270190
+      Data4: -350807971
     Path: event:/Tavern ambient
 --- !u!65 &2141780271
 BoxCollider:
@@ -8835,8 +8836,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 25.674896, y: 10.246375, z: 22.027802}
-  m_Center: {x: -2.4474945, y: 4.6231875, z: 9.646835}
+  m_Size: {x: 25.674896, y: 10.246375, z: 22.71457}
+  m_Center: {x: -2.4474945, y: 4.6231875, z: 9.303452}
 --- !u!4 &2141780272
 Transform:
   m_ObjectHideFlags: 0

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{7112b934-c77a-4650-b141-b9404c169f85}">
+		<property name="name">
+			<value>LookAtTavern</value>
+		</property>
+		<relationship name="folder">
+			<destination>{b06c9178-a680-4329-a547-369295e8ccb9}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{6ed242ad-b5c7-4d5a-8a80-3bee88e1db2c}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{6ed242ad-b5c7-4d5a-8a80-3bee88e1db2c}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Value A</value>
+			<value>Value B</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

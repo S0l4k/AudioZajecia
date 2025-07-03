@@ -526,8 +526,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: Assets/Krokczki.fspro
-  sourceBankPath: Assets/Build
+  sourceProjectPath: "Assets/FmodStudio/kroczki2.0 \u2014 kopia/kroczki2.0.fspro"
+  sourceBankPath: "Assets/FmodStudio/kroczki2.0 \u2014 kopia/Build"
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 1
   ShowBankRefreshWindow: 1
@@ -562,7 +562,7 @@ MonoBehaviour:
   EnableErrorCallback: 0
   SharedLibraryUpdateStage: 0
   SharedLibraryTimeSinceStart: 0
-  CurrentVersion: 131617
+  CurrentVersion: 131848
   HideSetupWizard: 1
   LastEventReferenceScanVersion: 131617
   Platforms:
